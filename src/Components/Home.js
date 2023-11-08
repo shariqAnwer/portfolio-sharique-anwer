@@ -31,7 +31,7 @@ const Home = () => {
         </div>
 
         {/* <Lottie className="illustration" animationData={SpaceBoy} loop={true} /> */}
-        <img src={profilePic} alt="Profile Photo" />
+        <img src={profilePic} alt="Profile Photo" style={{borderRadius:"50%"}} />
       </div>
 
       <div className="AboutPage">
