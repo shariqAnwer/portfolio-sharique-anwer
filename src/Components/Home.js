@@ -8,6 +8,7 @@ import React from "react";
 import SpaceBoy from "../LottieFiles/SpaceBoy.json";
 import Tilt from "react-parallax-tilt";
 import Typed from "./Typed.js";
+import profilePic from "../images/profilePic.jpg"
 
 const Home = () => {
   return (
@@ -29,7 +30,8 @@ const Home = () => {
        
         </div>
 
-        <Lottie className="illustration" animationData={SpaceBoy} loop={true} />
+        {/* <Lottie className="illustration" animationData={SpaceBoy} loop={true} /> */}
+        <img src={profilePic} alt="Profile Photo" />
       </div>
 
       <div className="AboutPage">

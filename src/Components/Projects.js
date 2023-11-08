@@ -9,9 +9,9 @@ const Projects = () => {
     <div>
       <h1 className='projectHeading'>My <b>Projects</b></h1>
       <div className='project'>
-        <ProjectBox projectPhoto={jc} projectName="Juicy Chemistry" />
+        <ProjectBox projectPhoto={jc} projectName="JuicyChemistry" />
         <ProjectBox projectPhoto={fitmeals} projectName="Fitmeals" />
-        <ProjectBox projectPhoto={reliance} projectName="Reliance Digital" />
+        <ProjectBox projectPhoto={reliance} projectName="Reliance" />
       </div>
 
     </div>
