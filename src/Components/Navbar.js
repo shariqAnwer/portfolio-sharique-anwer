@@ -1,4 +1,4 @@
-import {BsCodeSlash, BsPerson} from "react-icons/bs";
+import {BsCodeSlash, BsEnvelope, BsGear, BsPerson} from "react-icons/bs";
 
 import {AiOutlineHome} from "react-icons/ai";
 import {CgFileDocument} from "react-icons/cg";
@@ -53,8 +53,10 @@ const Nav = () => {
         <ul className='NavbarLinks'>
             <li onClick={hideMenu}><Link to="/"><AiOutlineHome/> Home</Link></li>
             <li onClick={hideMenu}><Link to="/About"><BsPerson/> About</Link></li>
+            <li onClick={hideMenu}><Link to="/SkillsPage"><BsGear/> Skills</Link></li>
             <li onClick={hideMenu}><Link to="/Project"><BsCodeSlash/> Project</Link></li>
             <li onClick={hideMenu}><Link to="/Resume"><CgFileDocument/> Resume</Link></li>
+            <li onClick={hideMenu}><Link to="/Contact"><BsEnvelope/> Contact</Link></li>
         </ul>
         
     </nav>
