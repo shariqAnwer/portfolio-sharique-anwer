@@ -5,7 +5,7 @@ import { Document, Page, pdfjs } from "react-pdf";
 import React, { useState } from "react";
 
 import { BsDownload } from "react-icons/bs";
-import pdf from "../Sharique_resume.pdf";
+import pdf from "../Sharique_masai_resume.pdf";
 
 pdfjs.GlobalWorkerOptions.workerSrc = `//unpkg.com/pdfjs-dist@${pdfjs.version}/build/pdf.worker.min.js`;
 

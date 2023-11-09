@@ -15,6 +15,7 @@ import profilePic from "../images/profilePic.jpg";
 // import Lottie from "lottie-react";
 
 // import SpaceBoy from "../LottieFiles/SpaceBoy.json";
+// eslint-disable-next-line jsx-a11y/img-redundant-alt
 
 const Home = () => {
   return (
@@ -53,11 +54,7 @@ const Home = () => {
             </div>
           </div>
           {/* <Lottie className="illustration" animationData={SpaceBoy} loop={true} /> */}
-          <img
-            src={profilePic}
-            alt="Profile Photo"
-            style={{ borderRadius: "50%" }}
-          />
+          <img src={profilePic} alt="Profile" style={{ borderRadius: "50%" }} />
         </div>
 
         <div className="AboutPage">
