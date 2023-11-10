@@ -6,7 +6,7 @@ import Tilt from "react-parallax-tilt";
 const About = () => {
   return (
     <>
-      <div className="AboutPage">
+      <div className="AboutPage" id="About">
         <div className="AboutText">
           <h1 className="AboutTextHeading">
             Get to <b>know</b> me!

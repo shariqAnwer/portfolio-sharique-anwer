@@ -6,7 +6,7 @@ import reliance from "../images/Reliance.png";
 
 const Projects = () => {
   return (
-    <div>
+    <div id="Project">
       <h1 className="projectHeading">
         My <b>Projects</b>
       </h1>

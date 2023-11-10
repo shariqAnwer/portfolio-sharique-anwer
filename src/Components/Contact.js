@@ -9,7 +9,7 @@ import React from "react";
 
 const Projects = () => {
   return (
-    <div>
+    <div id="Contact">
       <h1 className="projectHeading">
         <b>Contact Details</b>
       </h1>
