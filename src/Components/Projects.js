@@ -2,7 +2,8 @@ import ProjectBox from "./ProjectBox";
 import React from "react";
 import fitmeals from "../images/fitmeals.PNG";
 import jc from "../images/JC.png";
-import reliance from "../images/Reliance.png";
+
+// import reliance from "../images/Reliance.png";
 
 const Projects = () => {
   return (
@@ -13,7 +14,7 @@ const Projects = () => {
       <div className="project">
         <ProjectBox projectPhoto={jc} projectName="JuicyChemistry" />
         <ProjectBox projectPhoto={fitmeals} projectName="Fitmeals" />
-        <ProjectBox projectPhoto={reliance} projectName="Reliance" />
+        {/* <ProjectBox projectPhoto={reliance} projectName="Reliance" /> */}
       </div>
     </div>
   );

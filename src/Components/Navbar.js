@@ -7,8 +7,9 @@ import React, { useState } from "react";
 import { AiOutlineHome } from "react-icons/ai";
 import { BsDownload } from "react-icons/bs";
 import { Link } from "react-router-dom";
-import pdf from "../Sharique_masai_resume.pdf";
 import { pdfjs } from "react-pdf";
+
+// import pdf from "../Sharique_masai_resume.pdf";
 
 pdfjs.GlobalWorkerOptions.workerSrc = `//unpkg.com/pdfjs-dist@${pdfjs.version}/build/pdf.worker.min.js`;
 
@@ -97,8 +98,8 @@ const Nav = () => {
             <CgFileDocument /> Resume
           </Link> */}
           <a
-            href={pdf}
             target="_blank"
+            href="https://drive.google.com/file/d/1hCzSs_Ke7sIBVJnNChbeJNOlIpELDYM_/view?usp=drive_link"
             download="Sharique Anwer Resume"
             rel="noreferrer"
           >
