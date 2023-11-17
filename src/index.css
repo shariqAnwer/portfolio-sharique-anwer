@@ -523,6 +523,15 @@ td {
   gap: 20px;
   border-spacing: 30px;
 }
+@media only screen and (max-width: 600px) {
+  .contactPage table,
+  tr,
+  td {
+    font-size: 25px;
+    gap: 18px;
+    border-spacing: 25px;
+  }
+}
 
 .footerLinks-contact {
   display: flex;
